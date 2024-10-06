@@ -3,7 +3,7 @@ name: snowflake-dev-migration
 on:
   push:
     branches:
-      - sf-dev
+      - DEV
     paths:
       - 'deploy/**'
   workflow_dispatch:

@@ -3,7 +3,7 @@ name: snowflake-prod-migration
 on:
   push:
     branches:
-      - sf-prod
+      - PROD
     paths:
       - 'deploy/**'
   workflow_dispatch:

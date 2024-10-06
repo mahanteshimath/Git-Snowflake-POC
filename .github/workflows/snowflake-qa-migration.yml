@@ -3,7 +3,7 @@ name: snowflake-qa-migration
 on:
   push:
     branches:
-      - sf-qa
+      - QA
     paths:
       - 'deploy/**'
   workflow_dispatch:
